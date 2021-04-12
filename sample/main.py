@@ -44,6 +44,7 @@ def main():
 
 
 @app.route("/")
+@app.route("/index.html")
 def index():
     db_sess = db_session.create_session()
     if current_user.is_authenticated:
@@ -52,6 +53,11 @@ def index():
     else:
         news = db_sess.query(News).filter(News.is_private != True)
     return render_template("web/index.html", news=news)
+
+
+@app.route("/contact.html")
+def contact():
+    return render_template("web/contact.html")
 
 
 @app.route('/logout')
