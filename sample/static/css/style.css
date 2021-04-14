@@ -34,7 +34,7 @@ ul,label{
 }
 /*----start-header----*/
 .header{
-background:rgba(246, 197, 112, 0.34);
+background:rgba(118, 197, 112, 0.34);
 height:80px;
 }
 .logo{
@@ -53,7 +53,7 @@ height:80px;
 border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 .top-menu ul li a{
-	background:rgba(246, 197, 112, 0.34);
+	background:rgba(118, 197, 112, 0.34);
 	margin: 2em 2.5em;
 	display: block;
 	color: #54332A;
@@ -87,7 +87,7 @@ font-weight:100;
 letter-spacing:1px;
 }
 .banner-links ul{
-background:#FFC600;
+background:#6fff00;
 }
 .banner-links ul li{
 float:left;
@@ -226,7 +226,7 @@ color:#E82806;
 padding:0;
 }
 .search {
-background:#EB5A41;
+background:##1aea6a;
 padding: 1.8em;
 }
 .search h3{
@@ -290,7 +290,7 @@ color:#EB5A41;
 }
 /*----*/
 .fotter{
-background:#E4573F;
+background:#3fe44d;
 }
 .fotter-info{
 border-right:1px solid rgba(255, 255, 255, 0.13);
